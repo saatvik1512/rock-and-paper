@@ -1,0 +1,131 @@
+header {
+    display: flex;
+    align-self: stretch;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3rem;
+    background-color: rgb(230, 230, 230);
+    padding: 1rem;
+    justify-content: center;
+    box-shadow: 10px 10px 50px grey;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+button:not(.lastbutton) {
+    cursor: pointer;
+    padding: 4rem;
+    background-color: red;
+    border: none;
+    font-size: 3rem;
+    font-family: 'Handjet', cursive;
+    border-radius: 10px;
+    transition: box-shadow 0.2s;
+}
+
+#rock {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/7/7e/Rock-paper-scissors_%28rock%29.png);
+    background-size: cover;
+}
+
+#paper {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/a/af/Rock-paper-scissors_%28paper%29.png);
+    background-size: cover;
+}
+
+#scissor {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/5/5f/Rock-paper-scissors_%28scissors%29.png);
+    background-size: cover;
+}
+
+.hero-container {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 3rem;
+}
+
+.hero-container .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.hero-container .allDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-container .allDetails .winning-statement {
+    margin: 0;
+    padding: 1rem;
+    font-size: 2.1rem;
+    font-family: 'Borel', cursive;
+}
+
+.container > button:hover {
+    -webkit-box-shadow: 0 0 20px rgb(68, 68, 68);
+    box-shadow: 0 0 20px rgb(68, 68, 68);
+}
+
+.hero-container .allDetails p:not(.winning-statement){
+    font-size: 2.0rem;
+    font-family: 'Yatra One', cursive;
+    margin: 0;
+}
+
+.hero-container .lastbutton {
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    border: none;
+    transition: box-shadow 0.3s;
+}
+
+.hero-container .lastbutton:hover {
+    -webkit-box-shadow: 0 0 20px rgb(68, 68, 68);
+    box-shadow: 0 0 20px rgb(68, 68, 68);
+}
+
+.lastline, .lastbutton {
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+.hero-container .lastline {
+    font-family: 'Borel', cursive;
+    font-size: 2.1rem;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    padding: 0.5rem;
+    border-top: 1px solid rgb(209, 209, 209);
+    align-self: stretch;
+    justify-content: center;
+    font-size: 19px;
+    font-family: monospace;
+    gap: 0.4rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #0a0a23;
+}
+
+footer img {
+    width: 30px;
+}
