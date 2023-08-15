@@ -90,8 +90,6 @@ let playerScore = 0, compScore = 0;
             getComp.innerHTML = compScore;
         }
         else {
-            playerScore++;
-            compScore++;
             winningStatment.style.color = "black";
             getPlayer.innerHTML = playerScore;
             getComp.innerHTML = compScore;
