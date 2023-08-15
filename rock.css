@@ -27,7 +27,7 @@ button:not(.lastbutton) {
     font-size: 3rem;
     font-family: 'Handjet', cursive;
     border-radius: 10px;
-    transition: box-shadow 0.2s;
+    transition: scale 0.1s;
 }
 
 #rock {
@@ -76,6 +76,7 @@ button:not(.lastbutton) {
 .container > button:hover {
     -webkit-box-shadow: 0 0 20px rgb(68, 68, 68);
     box-shadow: 0 0 20px rgb(68, 68, 68);
+    scale: 1.05;
 }
 
 .hero-container .allDetails p:not(.winning-statement){
