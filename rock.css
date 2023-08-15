@@ -129,3 +129,10 @@ footer a {
 footer img {
     width: 30px;
 }
+
+.header-title {
+    font-family: 'Yatra One', cursive;
+    align-self: center;
+    font-size: 2.5rem;
+    margin: 1rem 0 0 0;
+}
