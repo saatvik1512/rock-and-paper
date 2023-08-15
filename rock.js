@@ -10,8 +10,7 @@ for (const btn of btns){
 }
 
 function countChecker(){
-    count++;
-    if (count == 6){
+    if (playerScore == 5 || compScore == 5){
         const slogans = document.createElement("h3");
         slogans.setAttribute("class", "lastline");
         const maincontainer = document.querySelector(".hero-container");
